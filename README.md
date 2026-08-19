@@ -33,57 +33,58 @@ MISP (`misp-project.org`) is used by security teams to **share, store, and corre
 ### 1. Platform Overview
 The MISP project homepage — an open-source threat intelligence sharing platform supporting XML/JSON, OpenIOC, STIX, Suricata/Snort exports, and CSV import/export.
 
-![MISP Project Overview](./screenshots/01-misp-project-overview.png)
+![MISP Project Overview](./Screenshot_2026-08-08_10_02_16.jpg)
 
 ### 2. Login & Initial Access
 Authenticating into the self-hosted MISP instance.
 
-![MISP Login Page](./screenshots/02-misp-login.png)
+![MISP Login Page](./Screenshot_2026-08-18_10_42_05.png)
 
 ### 3. Events Dashboard
 The default **Events** index — the primary workspace for creating, filtering, and managing threat intelligence events.
 
-![Events Dashboard](./screenshots/03-events-dashboard.png)
+![Events Dashboard](./Screenshot_2026-08-08_15_34_30.png)
 
 ### 4. Organisation Setup — `MGSystems`
 Registering a new local organisation with UUID, sector, nationality, and contact details.
 
-![Add Organisation](./screenshots/04-add-organisation.png)
-![Organisation Contact Details](./screenshots/05-org-contact-details.png)
-![Organisation Created](./screenshots/06-org-created-confirmation.png)
+![Add Organisation](./Screenshot_2026-08-08_15_36_04.png)
+![Organisation Contact Details](./Screenshot_2026-08-08_15_39_23.png)
+![Organisation Created](./Screenshot_2026-08-08_15_41_12.png)
 
 ### 5. Default Admin Organisation
 Reviewing the auto-generated `ADMIN` organisation and its associated user index.
 
-![Admin Organisation View](./screenshots/07-admin-org-view.png)
+![Admin Organisation View](./Screenshot_2026-08-13_12_21_15.png)
 
 ### 6. Scheduled Tasks & Automation
 MISP's built-in job scheduler — automating daily feed fetches, server pull/push syncs, and taxonomy/galaxy/object template updates.
 
-![Scheduled Tasks Index](./screenshots/08-scheduled-tasks.png)
+![Scheduled Tasks Index](./Screenshot_2026-08-13_12_21_34.png)
 
 ### 7. Creating a Threat Intelligence Event
 Building a new event from an open-source report: **"From Bing Search to Ransomware: Bumblebee and AdaptixC2 Deliver Akira"** — set with `High` threat level and `Completed` analysis status.
 
-![Add Event](./screenshots/09-add-event.png)
-![Event Created](./screenshots/10-event-created.png)
+![Add Event](./Screenshot_2026-08-13_12_22_51.png)
+![Event Created](./Screenshot_2026-08-13_12_23_00.png)
 
 ### 8. Event Warnings & Data Quality Checks
 MISP flags events with no attributes/objects or missing tags — reinforcing the platform's emphasis on contextualised, high-fidelity intel.
 
-![Event Warnings](./screenshots/11-event-warnings.png)
-![Event Attributes Empty State](./screenshots/12-event-empty-attributes.png)
+![Event Warnings](./Screenshot_2026-08-13_12_23_06.png)
+![Event Attributes Empty State](./Screenshot_2026-08-13_12_23_12.png)
 
 ### 9. Adding IOC Attributes
 Enriching the event with a malware **MD5 hash** under the *External analysis* category, with IDS export and Batch Import enabled.
 
-![Add Attribute Modal](./screenshots/13-add-attribute-md5.png)
-![Attribute Added to Event](./screenshots/14-attribute-added.png)
+![Add Attribute Modal](./Screenshot_2026-08-13_15_49_52.png)
+![Attribute Modal Confirmed](./Screenshot_2026-08-13_15_49_57.png)
+![Attribute Added to Event](./Screenshot_2026-08-13_15_50_16.png)
 
 ### 10. Threat Intel Feed Configuration
 Reviewing configured OSINT feeds — **CIRCL OSINT Feed** and **Botvrij.eu Data** — used for automated IOC ingestion and correlation.
 
-![Feeds Index](./screenshots/15-feeds-index.png)
+![Feeds Index](./Screenshot_2026-08-17_15_54_56.png)
 
 ---
 
@@ -112,25 +113,25 @@ Reviewing configured OSINT feeds — **CIRCL OSINT Feed** and **Botvrij.eu Data*
 
 ```
 ├── README.md
-└── screenshots/
-    ├── 01-misp-project-overview.png
-    ├── 02-misp-login.png
-    ├── 03-events-dashboard.png
-    ├── 04-add-organisation.png
-    ├── 05-org-contact-details.png
-    ├── 06-org-created-confirmation.png
-    ├── 07-admin-org-view.png
-    ├── 08-scheduled-tasks.png
-    ├── 09-add-event.png
-    ├── 10-event-created.png
-    ├── 11-event-warnings.png
-    ├── 12-event-empty-attributes.png
-    ├── 13-add-attribute-md5.png
-    ├── 14-attribute-added.png
-    └── 15-feeds-index.png
+├── Screenshot_2026-08-08_10_02_16.jpg
+├── Screenshot_2026-08-08_15_34_30.png
+├── Screenshot_2026-08-08_15_36_04.png
+├── Screenshot_2026-08-08_15_39_23.png
+├── Screenshot_2026-08-08_15_41_12.png
+├── Screenshot_2026-08-13_12_21_15.png
+├── Screenshot_2026-08-13_12_21_34.png
+├── Screenshot_2026-08-13_12_22_51.png
+├── Screenshot_2026-08-13_12_23_00.png
+├── Screenshot_2026-08-13_12_23_06.png
+├── Screenshot_2026-08-13_12_23_12.png
+├── Screenshot_2026-08-13_15_49_52.png
+├── Screenshot_2026-08-13_15_49_57.png
+├── Screenshot_2026-08-13_15_50_16.png
+├── Screenshot_2026-08-17_15_54_56.png
+└── Screenshot_2026-08-18_10_42_05.png
 ```
 
-> ⚠️ Rename your uploaded screenshots to match the filenames above (or update the paths in this README) once you push them into a `screenshots/` folder in your repo.
+> ⚠️ Upload these screenshots to the **root** of your GitHub repo (same level as `README.md`) so the image links above resolve correctly.
 
 ---
 
