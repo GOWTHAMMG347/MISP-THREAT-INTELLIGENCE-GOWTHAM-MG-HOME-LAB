@@ -146,7 +146,7 @@ Reviewing configured OSINT feeds — **CIRCL OSINT Feed** and **Botvrij.eu Data*
 ## 👤 Author
 
 **Gowtham MG**
-Assistant Professor, Dept. of MCA | Cybersecurity & Threat Detection Enthusiast
+MCA | Cybersecurity & Threat Detection
 🔗 GitHub: [@GOWTHAMMG347](https://github.com/GOWTHAMMG347)
 
 ---
